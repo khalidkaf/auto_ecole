@@ -1,0 +1,108 @@
+.main {
+  background-color: #898886;
+  /* color: white; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 4rem 0;
+  /* z-index: 1; */
+}
+
+.offer {
+  background-color: #252525;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 25px;
+  height: 100px;
+  width: 75%;
+  margin-top: 10px;
+}
+
+/* .main::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../public/logo.jpg);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  opacity: 0.3;
+  z-index: -1; 
+} */
+
+.title {
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title2 {
+  line-height: 1.15;
+  font-size: 1.5rem;
+}
+
+/* .title a {
+  color: #0070f3;
+  text-decoration: none;
+} */
+
+/* .title a:hover, .title a:focus, .title a:active {
+  text-decoration: underline;
+} */
+
+.wrapper {
+    border: 1px solid black; /* Bordure fine et noire */
+    border-radius: 8px; /* Coins légèrement arrondis */
+    padding: 16px; /* Espacement intérieur */
+    margin: 20px auto; /* Centrage avec marge en haut et en bas */
+    max-width: 300px; /* Limite la largeur de la section */
+    background-color: #f9f9f9; /* Arrière-plan clair pour contraste */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre */
+  
+  /* background-color: #252525; */
+}
+
+.wrapper ul {
+  list-style-type: disc; /* Puces standards */
+  padding-left: 20px; /* Espacement des puces */
+  color: #333; /* Couleur du texte */
+  font-size: 16px; /* Taille confortable pour la lecture */
+  line-height: 1.5; /* Interligne pour améliorer la lisibilité */
+}
+
+.wrapper li {
+  margin-bottom: 8px; /* Espacement entre les éléments */
+}
+
+.wrapper div {
+  justify-content: center;
+  text-align: center;
+}
+
+.containertarif {
+  display: flex;
+}
+
+.containercode {
+  display: flex;
+}
+
+.wrappercode {
+  border: 1px solid black; /* Bordure fine et noire */
+  border-radius: 8px; /* Coins légèrement arrondis */
+  padding: 16px; /* Espacement intérieur */
+  margin: 20px auto; /* Centrage avec marge en haut et en bas */
+  max-width: 300px; /* Limite la largeur de la section */
+  background-color: #f9f9f9; /* Arrière-plan clair pour contraste */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre */
+
+/* background-color: #252525; */
+}
