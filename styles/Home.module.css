@@ -110,5 +110,16 @@
 @media (max-width: 768px) {
   .body{
     width: 100%;
+    /* background-color: red; */
+  }
+  .main {
+    background-color: red;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 4rem 0;
   }
 }
