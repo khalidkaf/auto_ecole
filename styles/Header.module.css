@@ -1,45 +1,90 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+/* Menu de navigation */
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: #ffcc00; /* Changement de couleur au survol */
+}
+
+/* Styles pour le menu burger */
+.menuIcon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.menuIcon div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+  .menuIcon {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-  }
-  
-  .logo a {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .navLinks {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .navLinks a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
-  }
-  
-  .navLinks a:hover {
-    color: #ffcc00; /* Changement de couleur au survol */
-  }
-  
-  /* Styles pour la responsivité */
-  @media (max-width: 768px) {
-    .navLinks {
-      flex-direction: column;
-      gap: 10px;
-    }
   }
 
-  .devis{
-    color: #ffcc00;
-    background-color: #ffcc00;
+  .navLinks {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    background-color: #333;
+    flex-direction: column;
+    gap: 10px;
+    display: none; /* Caché par défaut */
+    text-align: center;
+    padding: 20px 0;
   }
+
+  .navLinks.active {
+    display: flex; /* Affiche le menu quand il est actif */
+  }
+}
+
+.devis {
+  color: white;
+  background-color: #ffcc00;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.devis:hover {
+  background-color: #e6b800;
+}
