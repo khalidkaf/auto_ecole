@@ -15,7 +15,7 @@ function Tarifsmanuaveccode() {
                 <ul>
                     <li>1 Frais de gestion</li>
                     {/* <li>1 Livre de code</li> */}
-                    <li>1 Pochette pédagogique B</li>
+                    {/* <li>1 Pochette pédagogique B</li> */}
                     {/* <li>1 Accès illimité à la salle de code</li> */}
                     {/* <li>1 Pack web</li> */}
                     <li>1 Evaluation de départ</li>
@@ -34,7 +34,7 @@ function Tarifsmanuaveccode() {
                 <ul>
                     <li>1 Frais de gestion</li>
                     {/* <li>1 Livre de code</li> */}
-                    <li>1 Pochette pédagogique B</li>
+                    {/* <li>1 Pochette pédagogique B</li> */}
                     {/* <li>1 Accès illimité à la salle de code</li> */}
                     {/* <li>1 Pack web</li> */}
                     <li>1 Evaluation de départ</li>
@@ -53,7 +53,7 @@ function Tarifsmanuaveccode() {
                 <ul>
                     <li>1 Frais de gestion</li>
                     {/* <li>1 Livre de code</li> */}
-                    <li>1 Pochette pédagogique B</li>
+                    {/* <li>1 Pochette pédagogique B</li> */}
                     {/* <li>1 Accès illimité à la salle de code</li> */}
                     {/* <li>1 Pack web</li> */}
                     <li>1 Evaluation de départ</li>
@@ -72,7 +72,7 @@ function Tarifsmanuaveccode() {
                 <ul>
                     <li>1 Frais de gestion</li>
                     {/* <li>1 Livre de code</li> */}
-                    <li>1 Pochette pédagogique B</li>
+                    {/* <li>1 Pochette pédagogique B</li> */}
                     {/* <li>1 Accès illimité à la salle de code</li> */}
                     {/* <li>1 Pack web</li> */}
                     <li>1 Evaluation de départ</li>
@@ -91,7 +91,7 @@ function Tarifsmanuaveccode() {
                 <ul>
                     <li>1 Frais de gestion</li>
                     {/* <li>1 Livre de code</li> */}
-                    <li>1 Pochette pédagogique B</li>
+                    {/* <li>1 Pochette pédagogique B</li> */}
                     {/* <li>1 Accès illimité à la salle de code</li> */}
                     {/* <li>1 Pack web</li> */}
                     <li>1 Evaluation de départ</li>
