@@ -11,6 +11,11 @@
   /* z-index: 1; */
 }
 
+.image {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
 .offer {
   background-color: #252525;
   text-align: center;
@@ -20,7 +25,7 @@
   color: rgb(209, 108, 14);
   border-radius: 25px;
   height: 100px;
-  width: 100%;
+  width: 70%;
   margin-top: 10px;
 }
 
