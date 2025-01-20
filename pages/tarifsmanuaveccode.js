@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 
 
 function Tarifsmanuaveccode() {
-    return <div>
+    return <div className={styles.body}>
         <Navi />
 
         <div className={styles.containertarif}>

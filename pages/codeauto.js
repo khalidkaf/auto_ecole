@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 
 function Codeauto() {
-    return <div>
+    return <div className={styles.body}>
         <Navi/>
         <div className={styles.containercode}>
 
