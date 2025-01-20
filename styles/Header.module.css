@@ -88,3 +88,24 @@
 .devis:hover {
   background-color: #e6b800;
 }
+
+
+@media (max-width: 768px) {
+  .body{
+    width: 100%;
+    /* background-color: red; */
+  }
+  .main {
+    width: 100%;
+
+    background-color: blue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 4rem 0;
+  }
+  
+}

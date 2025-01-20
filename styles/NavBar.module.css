@@ -11,7 +11,8 @@
 
 /* Logo à gauche */
 .logo a {
-  color: white;
+  color: rgb(209, 108, 14);
+  ;
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
@@ -85,4 +86,25 @@
       margin: 20px 0;
   }
   
+}
+
+
+@media (max-width: 768px) {
+  .body{
+    width: 100%;
+    /* background-color: red; */
+  }
+  .main {
+    width: 100%;
+
+    background-color: blue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 4rem 0;
+  }
+
 }

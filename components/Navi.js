@@ -18,7 +18,7 @@ const Navi = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <a href="/">CFC Auto Ecole</a>
+        <a href="/" className={styles.titre}>CFC Auto Ecole</a>
       </div>
 
       {/* Menu pour mobile */}

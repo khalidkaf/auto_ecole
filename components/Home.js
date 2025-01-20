@@ -8,14 +8,15 @@ import Link from 'next/link';
 
 function Home() {
   return (
-    <div className="body">
+    <div className={styles.body}>
       {/* <Header/> */}
       <Navi/>
       <main className={styles.main}>
-      <img src="/cfc-autoecole.jpeg" alt="Description de l'image" width="600" />
+      {/* <img src="/cfc-autoecole.jpeg" alt="Description de l'image" width="600" /> */}
+        <img src="/cfc-autoecole.jpeg" alt="Auto-école" className={styles.imqge} />
 
 
-        <h1>Découvrez nos offres pour passer votre permis de conduire :</h1>
+        <h1 className={styles.titre2}>Découvrez nos offres pour passer votre permis de conduire :</h1>
         <div>
         <Link href="/code">
           <h2 className={styles.offer}>Permis B conduite accompagnée</h2>
@@ -35,7 +36,8 @@ function Home() {
         </Link>
 
         </div>
-        <img src="/panneau-toit-voiture-ecrit-francais-autoecole-signifiant-anglais-auto-ecole_633872-478.jpg" alt="Description de l'image" width="300" />
+        {/* <img src="/panneau-toit-voiture-ecrit-francais-autoecole-signifiant-anglais-auto-ecole_633872-478.jpg" alt="Description de l'image" width="300" /> */}
+        <img src="/panneau-toit-voiture-ecrit-francais-autoecole-signifiant-anglais-auto-ecole_633872-478.jpg" alt="Description de l'image" className={styles.imqge} />
 
 
       </main>
