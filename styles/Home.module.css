@@ -137,13 +137,19 @@
 }
 .button {
   display: inline-block;
+  height: 50px;
+  width: 200px;
   padding: 10px 20px;
   background-color: #333;
   color: white;
   text-decoration: none;
-  font-size: 1rem;
-  font-size: 5px;
+  font-size: 1.2rem;
+  /* font-size: 5px; */
   transition: background-color 0.3s;
+}
+.span {
+  font-size: 1.3rem;
+  font-weight: 800;
 }
 
 .buttonHover {
@@ -207,15 +213,18 @@
   }
   .button {
     display: inline-block;
+    height: 50px;
+    width: 200px;
     padding: 10px 20px;
     background-color: #333;
     color: white;
     text-decoration: none;
-    font-size: 1rem;
-    font-size: 5px;
+    font-size: 1.2rem;
+    /* font-size: 5px; */
     transition: background-color 0.3s;
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
+    text-align: center; */
   }
   
   .span {

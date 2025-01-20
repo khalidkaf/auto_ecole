@@ -26,7 +26,7 @@ function Contact() {
          className={styles.containermail}>
             <h1 className={styles.heading}>Contactez-nous</h1>
             <p className={styles.text}>
-                Cliquez sur le bouton ci-dessous pour nous envoyer un email ou écrivez-nous à cfc@gmail.com:
+                Cliquez sur le bouton ci-dessous pour nous envoyer un email ou écrivez-nous à <span className={styles.span}>cfc@gmail.com</span>:
             </p>
 
             <a
