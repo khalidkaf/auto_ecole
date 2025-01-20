@@ -18,6 +18,15 @@ function Home() {
 
         <h1 className={styles.titre2}>Découvrez nos offres pour passer votre permis de conduire :</h1>
         <div>
+
+        <Link href="/codemanu">
+            <h2 className={styles.offer}>Permis B boîte manuelle</h2>
+        </Link>
+
+        <Link href="/codeauto">
+            <h2 className={styles.offer}>Permis B boîte automatique</h2>
+        </Link>
+
         <Link href="/code">
           <h2 className={styles.offer}>Permis B conduite accompagnée</h2>
         </Link>
@@ -27,13 +36,12 @@ function Home() {
             <h2 className={styles.offer}>Permis B conduite accompagnée boîte automatique</h2>
         </Link>
 
-        <Link href="/codemanu">
-            <h2 className={styles.offer}>Permis B boîte manuelle</h2>
+        <Link href="/passerelle">
+
+            <h2 className={styles.offer}>Passerelle boîte automatique vers boîte manuelle</h2>
         </Link>
 
-        <Link href="/codeauto">
-            <h2 className={styles.offer}>Permis B boîte automatique</h2>
-        </Link>
+        
 
         </div>
         {/* <img src="/panneau-toit-voiture-ecrit-francais-autoecole-signifiant-anglais-auto-ecole_633872-478.jpg" alt="Description de l'image" width="300" /> */}

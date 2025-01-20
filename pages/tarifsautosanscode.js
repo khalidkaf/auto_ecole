@@ -18,8 +18,12 @@ function Tarifsautosanscode() {
                     <li>1 Pochette pédagogique B</li>
                     <li>1 Accès illimité à la salle de code</li>
                     <li>1 Pack web</li>
+                    <li>1 Evaluation de départ</li>
+
                     <li>13 Leçons de conduite</li>
-                    <li>1 Rendez-vous préalable</li>
+                    {/* <li>1 Rendez-vous préalable</li> */}
+                    <li>1 Présentation à l'examen</li>
+
 
 
                 </ul>
@@ -33,8 +37,12 @@ function Tarifsautosanscode() {
                     <li>1 Pochette pédagogique B</li>
                     <li>1 Accès illimité à la salle de code</li>
                     <li>1 Pack web</li>
+                    <li>1 Evaluation de départ</li>
+
                     <li>20 Leçons de conduite</li>
-                    <li>1 Rendez-vous préalable</li>
+                    {/* <li>1 Rendez-vous préalable</li> */}
+                    <li>1 Présentation à l'examen</li>
+
 
 
                 </ul>
@@ -48,8 +56,12 @@ function Tarifsautosanscode() {
                     <li>1 Pochette pédagogique B</li>
                     <li>1 Accès illimité à la salle de code</li>
                     <li>1 Pack web</li>
+                    <li>1 Evaluation de départ</li>
+
                     <li>25 Leçons de conduite</li>
-                    <li>1 Rendez-vous préalable</li>
+                    {/* <li>1 Rendez-vous préalable</li> */}
+                    <li>1 Présentation à l'examen</li>
+
 
 
                 </ul>
@@ -63,8 +75,12 @@ function Tarifsautosanscode() {
                     <li>1 Pochette pédagogique B</li>
                     <li>1 Accès illimité à la salle de code</li>
                     <li>1 Pack web</li>
+                    <li>1 Evaluation de départ</li>
+
                     <li>30 Leçons de conduite</li>
-                    <li>1 Rendez-vous préalable</li>
+                    {/* <li>1 Rendez-vous préalable</li> */}
+                    <li>1 Présentation à l'examen</li>
+
 
 
                 </ul>
