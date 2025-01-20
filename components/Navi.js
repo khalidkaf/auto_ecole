@@ -33,9 +33,9 @@ const Navi = () => {
         <li>
           <a href="/">Accueil</a>
         </li>
-        {/* <li>
-          <a href="/about">À propos</a>
-        </li> */}
+        <li>
+          <a href="/coordonnees">Coordonnées</a>
+        </li>
         {/* <li>
           <a href="/services">Services</a>
         </li> */}
