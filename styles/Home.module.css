@@ -11,10 +11,10 @@
   /* z-index: 1; */
 }
 
-.image {
+/* .image {
   margin-top: 0px;
   padding-top: 0px;
-}
+} */
 
 .offer {
   background-color: #252525;
@@ -25,7 +25,7 @@
   color: rgb(209, 108, 14);
   border-radius: 25px;
   height: 100px;
-  width: 70%;
+  width: 100%;
   margin-top: 10px;
 }
 
@@ -188,8 +188,14 @@
     background-color: #898886;
   }
 
+
   .imqge {
     max-width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: auto;
+    max-height: 100vh;
+    display: block;
   }
   .containertarif {
     display: flex;
@@ -235,6 +241,24 @@
   .span {
     font-size: 1.3rem;
     font-weight: 800;
+  }
+
+  .offer {
+    background-color: #252525;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(209, 108, 14);
+    border-radius: 25px;
+    height: 100px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
   }
 
 }
